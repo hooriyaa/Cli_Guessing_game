@@ -1,13 +1,9 @@
 {
-  "name": "@hooriya-muhammad-fareed/cli_guessing_game",
-  "version": "1.0.4",
+  "name": "hooriya_cli_guessing_game",
+  "version": "2.0.1",
   "description": "This is cli based guessing game",
   "main": "index.js",
   "type": "module",
-  "publishConfig": {
-    "access": "public"
-  },
-  "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +15,8 @@
   },
   "dependencies": {
     "inquirer": "^9.2.16"
-  }
+  },
+"bin":{
+  "hooriya_cli_guessing_game":"bin/index.js"
+}
 }
