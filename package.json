@@ -1,6 +1,6 @@
 {
   "name": "@hooriya-muhammad-fareed/cli_guessing_game",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This is cli based guessing game",
   "main": "index.js",
   "type": "module",
